@@ -110,3 +110,9 @@ General discussions around AsteroidOS happen on the [#asteroid:matrix.org](https
 
 [license-shield]: https://img.shields.io/github/license/AsteroidOS/AsteroidOSSync.svg?style=flat-square
 [license-url]: https://github.com/AsteroidOS/AsteroidOSSync/blob/master/LICENSE
+
+## Automated debug builds
+
+Debug APKs are attached to [GitHub Releases](https://github.com/cheeseonamonkey/AsteroidOSSync_CI/releases). Default-branch builds are prereleases; version-tag builds attach their debug APKs to releases. Each build uses a temporary CI debug signing key, so installing a newer build may require uninstalling the previous one.
+
+GitHub Releases contain automated debug builds; F-Droid remains the stable distribution channel.
